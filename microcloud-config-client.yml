@@ -22,3 +22,8 @@ server:
 spring:
   profiles: beta
   application:
+    name: microconfig-test-client
+eureka:
+ client:
+  service-url:
+    defaultZone: http://admin:hdk@localhost:7001/eureka
