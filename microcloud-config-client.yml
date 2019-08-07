@@ -15,9 +15,9 @@ eureka:
  client:
   service-url:
     defaultZone: http://admin:hdk@localhost:7001/eureka
----
+
 server:
-  port: 8103
+  port: 8102
 
 spring:
   profiles: beta
