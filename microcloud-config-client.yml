@@ -15,7 +15,7 @@ eureka:
  client:
   service-url:
     defaultZone: http://admin:hdk@localhost:7001/eureka
-
+---
 server:
   port: 8102
 
