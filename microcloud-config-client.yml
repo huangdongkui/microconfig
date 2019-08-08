@@ -15,6 +15,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://admin:hdk@localhost:7001/eureka1
+info:
+  app.name: microcloud-config-client-dev
+  company.name: hdk
 ---
 server:
   port: 8102
@@ -27,3 +30,6 @@ eureka:
  client:
   service-url:
     defaultZone: http://admin:hdk@localhost:7001/eureka
+info:
+  app.name: microcloud-config-client-dev
+  company.name: hdk
