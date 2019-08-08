@@ -16,7 +16,7 @@ eureka:
     service-url:
       defaultZone: http://admin:hdk@localhost:7001/eureka1
 info:
-  app.name: microcloud-config-client-dev1
+  app.name: microcloud-config-client-dev
   company.name: hdk
 ---
 server:
